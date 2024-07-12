@@ -22,14 +22,69 @@
 
         </header>
 
-        <main class="container pt-5" >
-            
+        <main class="py-5 container-sm bg-primary rounded my-5" >
 
-               <input type="text" id="km">
-                <input type="text" id="age">
-                <button id="send" type="submit">Invia dati</button> 
-           
+            <h1 class="text-white text-center fw-bold">
+                Calcola il prezzo del tuo biglietto
+            </h1>
+
+            <div class="my-container rounded py-5 mx-3">
+                
+                <form action="button">
+                <div class="row m-0 justify-content-around">
+
+                    <section class="col-auto d-flex flex-column align-items-center pb-3">
+
+                        <label for="name" class="d-block mb-3 text-center my-label-style fw-bold bg-primary text-white">
+
+                            Nome e Cognome
+
+                        </label>
+
+                        <input type="text" id="name" class="rounded-1" name="name" placeholder="Inserisci nome e cognome">
+
+                    </section>
+                
+                    <section class="col-auto d-flex flex-column align-items-center pb-3">
+                        <label for="km" class="d-block mb-3 text-center my-label-style fw-bold bg-primary text-white">
+
+                            Km da percorrere
+
+                        </label>
+
+                        <input type="text" id="km" class="rounded-1" name="km" placeholder="Km">
+
+                    </section>
+
+                    <section class="col-auto d-flex flex-column align-items-center pb-3">
+
+                        <label for="age" class="d-block mb-3 text-center my-label-style fw-bold bg-primary text-white">
+
+                            Età del passeggero
+
+                        </label>
+
+                        <input type="text" id="age" class="rounded-1" name="age" placeholder="Età passeggero">
+
+                    </section>
+                
+                </div>  
+
+                <div class="d-flex justify-content-center">
+
+                    <button type="submit" id="send" class=" btn btn-primary mt-3 fw-bold">Invia dati</button>
+
+                </div>
+                </form>
+            </div>
+                
+            <h1 id="prezzo-biglietto" class="text-center fw-bold text-white mt-5">
+
+            </h1>
+
             
+            
+                
 
             
         </main>

@@ -7,3 +7,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.my-container{
+
+    margin: 0 auto;
+    background-image: url(https://www.clustertrasporti.it/wp-content/uploads/2022/07/etr_1000_treno_frecciarossa_1657112120_89573f693d.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}   
+
+.my-label-style{
+
+    padding: 4px 8px;
+    /*background-color: rgb(255, 102, 0);*/
+    width: max-content;
+    border-radius: 20px;
+}
